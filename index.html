@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module"></script>
   </head>
   <body>
     <main>
       <div id="input-div">
         <section>
           <p>USD</p>
-          <input type="number" id="input-usd" placeholder="Enter $" />
+          <label for="input-usd">$</label>
+          <input type="number" id="input-usd" placeholder="amount" />
         </section>
       </div>
       <div id="display-div">
         <section>
           <h2>EUR:</h2>
-          <p>€<span id="euro-eur"></span></p>
+          <p>€ <span id="euro-eur"></span></p>
         </section>
         <section>
           <h2>JPY:</h2>
-          <p>¥<span id="yen-jpy"></span></p>
+          <p>¥ <span id="yen-jpy"></span></p>
         </section>
         <section>
           <h2>GBP:</h2>
-          <p>£<span id="pound-gbp"></span></p>
+          <p>£ <span id="pound-gbp"></span></p>
         </section>
       </div>
     </main>
-    <script src="script.js" type="module"></script>
   </body>
 </html>
